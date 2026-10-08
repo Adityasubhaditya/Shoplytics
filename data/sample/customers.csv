@@ -1,0 +1,11 @@
+customer_id,customer_name,email,signup_date,region,acquisition_channel
+101,Aarav Sharma,aarav.sharma@example.com,2024-01-05,North,Organic Search
+102,Diya Mehta,diya.mehta@example.com,2024-01-18,West,Paid Social
+103,Rohan Iyer,rohan.iyer@example.com,2024-02-02,South,Referral
+104,Anaya Kapoor,anaya.kapoor@example.com,2024-02-21,East,Email
+105,Vivaan Patel,vivaan.patel@example.com,2024-03-03,West,Organic Search
+106,Isha Verma,isha.verma@example.com,2024-03-17,North,Influencer
+107,Arjun Nair,arjun.nair@example.com,2024-04-04,South,Paid Social
+108,Saanvi Rao,saanvi.rao@example.com,2024-04-11,East,Referral
+109,Kabir Singh,kabir.singh@example.com,2024-05-07,North,Email
+110,Myra Jain,myra.jain@example.com,2024-05-15,West,Organic Search

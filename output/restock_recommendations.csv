@@ -1,0 +1,3 @@
+product_id,product_name,category,inventory_on_hand,units_last_45_days,revenue_last_45_days,restock_priority
+204,Smart Fitness Watch,Electronics,18,1,180,Critical
+205,Organic Skincare Kit,Beauty,34,2,120,Monitor

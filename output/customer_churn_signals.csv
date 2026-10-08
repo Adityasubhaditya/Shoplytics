@@ -1,0 +1,11 @@
+customer_id,customer_name,region,acquisition_channel,total_orders,total_revenue,last_order_date,days_since_last_order,churn_risk
+101,Aarav Sharma,North,Organic Search,3,485,2024-10-11,64,High
+102,Diya Mehta,West,Paid Social,2,245,2024-07-16,151,High
+103,Rohan Iyer,South,Referral,2,275,2024-06-19,178,High
+104,Anaya Kapoor,East,Email,2,400,2024-08-03,133,High
+105,Vivaan Patel,West,Organic Search,2,170,2024-07-05,162,High
+106,Isha Verma,North,Influencer,1,220,2024-03-22,267,High
+107,Arjun Nair,South,Paid Social,2,230,2024-11-09,35,Medium
+108,Saanvi Rao,East,Referral,2,310,2024-08-18,118,High
+109,Kabir Singh,North,Email,2,350,2024-09-06,99,High
+110,Myra Jain,West,Organic Search,2,420,2024-12-14,0,Low

@@ -1,0 +1,60 @@
+{
+  "name": "Shoplytics Executive Theme",
+  "dataColors": [
+    "#0F766E",
+    "#F97316",
+    "#0F172A",
+    "#F59E0B",
+    "#14B8A6",
+    "#475569",
+    "#FB7185",
+    "#22C55E"
+  ],
+  "background": "#F8FAFC",
+  "foreground": "#0F172A",
+  "tableAccent": "#0F766E",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#0F172A" } },
+            "fontSize": 14,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#0F172A" } },
+            "fontSize": 22,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#475569" } },
+            "fontSize": 11,
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    }
+  }
+}
