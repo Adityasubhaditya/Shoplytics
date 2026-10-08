@@ -9,9 +9,9 @@
 [![SQL](https://img.shields.io/badge/SQL-Analytics-0F766E?style=for-the-badge&logo=postgresql&logoColor=white)](sql/02_analytics_queries.sql)
 [![Python](https://img.shields.io/badge/Python-Pipeline-0F172A?style=for-the-badge&logo=python&logoColor=white)](src/shoplytics/pipeline.py)
 [![Pandas](https://img.shields.io/badge/Pandas-Transformation-F97316?style=for-the-badge&logo=pandas&logoColor=white)](src/shoplytics/pipeline.py)
-[![Power BI](https://img.shields.io/badge/Power_BI-Dashboards-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827)](shplytc.pbix)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboards-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827)](powerbi/shoplytics-dashboard.pbix)
 
-[Explore the dashboards](#dashboard-gallery) · [Run the pipeline](#run-locally) · [Download the Power BI report](shplytc.pbix)
+[Explore the dashboards](#dashboard-gallery) · [Run the pipeline](#run-locally) · [Download the Power BI report](powerbi/shoplytics-dashboard.pbix)
 
 </div>
 
@@ -69,7 +69,7 @@ Risk distribution, recency-versus-revenue positioning, and customer-level drill-
 
 ![Shoplytics Churn Signals Dashboard](powerbi/screenshots/churn-signals.png)
 
-The interactive report is available in [`shplytc.pbix`](shplytc.pbix). Open it with Power BI Desktop to explore filters, tooltips, and cross-visual interactions.
+The interactive report is available in [`powerbi/shoplytics-dashboard.pbix`](powerbi/shoplytics-dashboard.pbix). Open it with Power BI Desktop to explore filters, tooltips, and cross-visual interactions.
 
 ## Analytics Workflow
 
@@ -240,7 +240,7 @@ Dashboard-ready datasets exported to ...\Shoplytics\output
 ## Power BI Report
 
 1. Run the pipeline to refresh the files in `output/`.
-2. Open [`shplytc.pbix`](shplytc.pbix) with Power BI Desktop.
+2. Open [`powerbi/shoplytics-dashboard.pbix`](powerbi/shoplytics-dashboard.pbix) with Power BI Desktop.
 3. If prompted, update the CSV source paths to the local `output` directory.
 4. Select `Home` → `Refresh`.
 5. Optionally import [`powerbi/shoplytics_theme.json`](powerbi/shoplytics_theme.json) from `View` → `Browse for themes`.
@@ -256,6 +256,7 @@ Shoplytics/
 ├── powerbi/
 │   ├── screenshots/             # Dashboard previews used in this README
 │   ├── dashboard_spec.md        # Report design and visual mapping
+│   ├── shoplytics-dashboard.pbix # Interactive Power BI report
 │   └── shoplytics_theme.json    # Power BI color and typography theme
 ├── sql/
 │   ├── 01_schema.sql            # Normalized relational schema
@@ -264,8 +265,7 @@ Shoplytics/
 │   └── pipeline.py              # Pandas transformation pipeline
 ├── requirements.txt
 ├── run_analysis.py
-├── run_shoplytics.ps1
-└── shplytc.pbix                 # Interactive Power BI report
+└── run_shoplytics.ps1
 ```
 
 ## Key Findings from the Sample Data
